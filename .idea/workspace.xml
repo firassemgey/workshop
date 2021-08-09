@@ -2,9 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="520641ef-e403-457c-a441-8aa80744ec7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-complete - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-details - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-payment - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-payment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-review - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-review.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-shipping - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-shipping.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparison - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparison.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-delivery-cart - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-delivery-checkout - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-delivery-single - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grocery-catalog - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grocery-checkout - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grocery-single - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace-cart - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace-category - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace-category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace-single - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace-vendor - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-tracking - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-tracking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-cart - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-categories - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-grid-ft - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-grid-ft.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-grid-ls - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-grid-ls.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-grid-rs - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-grid-rs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list-ft - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list-ft.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list-ls - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list-ls.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list-rs - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list-rs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-single-v1 - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-single-v1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-single-v2 - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-single-v2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tiny-slider/dist/min/tiny-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/tiny-slider/dist/min/tiny-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tiny-slider/dist/tiny-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/tiny-slider/dist/tiny-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tiny-slider/tiny-slider.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -52,6 +103,15 @@
       <workItem from="1627545224096" duration="18059000" />
       <workItem from="1627927551724" duration="3716000" />
       <workItem from="1627935017053" duration="810000" />
+      <workItem from="1627999336111" duration="9152000" />
+      <workItem from="1628009467699" duration="33195000" />
+      <workItem from="1628090783156" duration="6450000" />
+      <workItem from="1628148242561" duration="3210000" />
+      <workItem from="1628162820920" duration="375000" />
+      <workItem from="1628170881032" duration="18294000" />
+      <workItem from="1628199729286" duration="2617000" />
+      <workItem from="1628246857736" duration="1438000" />
+      <workItem from="1628450601243" duration="16385000" />
     </task>
     <servers />
   </component>
