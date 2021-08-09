@@ -154,6 +154,7 @@
 <script src="vendor/simplebar/dist/simplebar.min.js"></script>
 <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
 <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<<<<<<< HEAD
 <script src="vendor/nouislider/dist/nouislider.min.js"></script>
 <script src="vendor/drift-zoom/dist/Drift.min.js"></script>
 <script src="vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
@@ -162,5 +163,10 @@
 <!-- Main theme script-->
 <script src="js/theme.min.js"></script>
 
+=======
+<script src="vendor/drift-zoom/dist/Drift.min.js"></script>
+<!-- Main theme script-->
+<script src="js/theme.min.js"></script>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
 </body>
 </html>

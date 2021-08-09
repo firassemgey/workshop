@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="520641ef-e403-457c-a441-8aa80744ec7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/changelog - ar.html" beforeDir="false" />
+=======
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
       <change beforePath="$PROJECT_DIR$/checkout-complete - ar.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout-complete.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout-details - ar.html" beforeDir="false" />
@@ -17,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/comparison - ar.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/comparison.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme.min.css" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/food-delivery-cart - ar.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/food-delivery-checkout - ar.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/food-delivery-single - ar.html" beforeDir="false" />
@@ -30,6 +34,11 @@
       <change beforePath="$PROJECT_DIR$/marketplace-category.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/marketplace-single - ar.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/marketplace-vendor - ar.html" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/index - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace-category - ar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace-category.html" beforeDir="false" />
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
       <change beforePath="$PROJECT_DIR$/order-tracking - ar.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/order-tracking.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-cart - ar.html" beforeDir="false" />
@@ -111,7 +120,11 @@
       <workItem from="1628170881032" duration="18294000" />
       <workItem from="1628199729286" duration="2617000" />
       <workItem from="1628246857736" duration="1438000" />
+<<<<<<< HEAD
       <workItem from="1628450601243" duration="16385000" />
+=======
+      <workItem from="1628450601243" duration="8864000" />
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
     </task>
     <servers />
   </component>

@@ -21,11 +21,18 @@
     <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
     <link rel="stylesheet" media="screen" href="vendor/drift-zoom/dist/drift-basic.min.css"/>
+<<<<<<< HEAD
     <link rel="stylesheet" media="screen" href="vendor/nouislider/dist/nouislider.min.css"/>
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css"/>
     <!-- Main Theme Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" href="css/theme.min.css">
     <!-- Google Tag Manager-->
+=======
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    <!-- Google Tag Manager-->
+
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
     <script>
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -255,7 +262,11 @@
             <div class="navbar navbar-expand-lg navbar-light">
                 <div class="container"><a class="navbar-brand d-none d-sm-block flex-shrink-0" href="index.html"><img src="img/logo-dark.png" width="142" alt="Cartzilla"></a><a class="navbar-brand d-sm-none flex-shrink-0 me-2" href="index.html"><img src="img/logo-icon.png" width="74" alt="Cartzilla"></a>
                     <div class="input-group d-none d-lg-flex mx-4">
+<<<<<<< HEAD
                         <input class="form-control rounded-end pe-5" type="text" placeholder="ابحث عن المنتجات"><i class="ci-search position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"></i>
+=======
+                        <input class="form-control rounded-end pe-5" type="text" placeholder="Search for products"><i class="ci-search position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"></i>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                     </div>
                     <div class="navbar-toolbar d-flex flex-shrink-0 align-items-center">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button><a class="navbar-tool navbar-stuck-toggler" href="#"><span class="navbar-tool-tooltip">قم بتوسيع القائمة</span>
@@ -426,22 +437,39 @@
                                             <div class="widget widget-links mb-4">
                                                 <h6 class="fs-base mb-3">تخطيطات المتجر</h6>
                                                 <ul class="widget-list">
+<<<<<<< HEAD
                                                     <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-ls.ar.php">متجر الشبكة - الشريط الجانبي الأيسر</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-rs.ar.php">متجر الشبكة - الشريط الجانبي الأيمن</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-ft.ar.php">تسوق الشبكة - المرشحات في الأعلى</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="shop-list-ls.ar.php">قائمة المتاجر - الشريط الجانبي الأيسر</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="shop-list-rs.ar.php">قائمة المتاجر - الشريط الجانبي الأيمن</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="shop-list-ft.ar.php">قائمة التسوق - المرشحات في الأعلى</a></li>
+=======
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-ls.html">متجر الشبكة - الشريط الجانبي الأيسر</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-rs.html">متجر الشبكة - الشريط الجانبي الأيمن</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-ft.html">تسوق الشبكة - المرشحات في الأعلى</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-list-ls.html">قائمة المتاجر - الشريط الجانبي الأيسر</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-list-rs.html">قائمة المتاجر - الشريط الجانبي الأيمن</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-list-ft.html">قائمة التسوق - المرشحات في الأعلى</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                                 </ul>
                                             </div>
                                             <div class="widget widget-links">
                                                 <h6 class="fs-base mb-3">المتجر</h6>
                                                 <ul class="widget-list">
+<<<<<<< HEAD
                                                     <li class="widget-list-item"><a class="widget-list-link" href="marketplace-category.ar.php">صفحة الفئة</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="marketplace-single.ar.php">صفحة عنصر واحد</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.ar.php">صفحة البائع</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="marketplace-cart.ar.php">عربة التسوق</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="marketplace-checkout..ar.php">الدفع</a></li>
+=======
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="marketplace-category.html">صفحة الفئة</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="marketplace-single.html">صفحة عنصر واحد</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.html">صفحة البائع</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="marketplace-cart.html">عربة التسوق</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="marketplace-checkout.html">الدفع</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                                 </ul>
                                             </div>
                                         </div>
@@ -449,6 +477,7 @@
                                             <div class="widget widget-links">
                                                 <h6 class="fs-base mb-3">صفحات التسوق</h6>
                                                 <ul class="widget-list">
+<<<<<<< HEAD
                                                     <li class="widget-list-item"><a class="widget-list-link" href="shop-categories.ar.pho">فئات التسوق</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v1.ar.php">صفحة المنتج الإصدار 1</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v2.ar.php">صفحة المنتج الإصدار 2</a></li>
@@ -460,6 +489,19 @@
                                                     <li class="widget-list-item"><a class="widget-list-link" href="checkout-complete.ar.php">أتمت تحقيق</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="order-tracking.ar.php">تتبع الطلب</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="comparison.ar.pho">مقارنة السلعة</a></li>
+=======
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-categories.html">فئات التسوق</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v1.html">صفحة المنتج الإصدار 1</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v2.html">صفحة المنتج الإصدار 2</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="shop-cart.html">عربة التسوق</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="checkout-details.html">تفاصيل الدفع</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="checkout-shipping.html">الخروج - الشحن</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="checkout-payment.html">الخروج - الدفع</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="checkout-review.html">تسجيل الخروج - مراجعة</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="checkout-complete.html">أتمت تحقيق</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="order-tracking.html">تتبع الطلب</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="comparison.html">مقارنة السلعة</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                                 </ul>
                                             </div>
                                         </div>
@@ -467,18 +509,31 @@
                                             <div class="widget widget-links mb-4">
                                                 <h6 class="fs-base mb-3">دكان بقالة</h6>
                                                 <ul class="widget-list">
+<<<<<<< HEAD
                                                     <li class="widget-list-item"><a class="widget-list-link" href="grocery-catalog.ar.php">بيان المنتج</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="grocery-single.ar.php">صفحة منتج واحد</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="grocery-checkout.ar.php">الدفع</a></li>
+=======
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="grocery-catalog.html">بيان المنتج</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="grocery-single.html">صفحة منتج واحد</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="grocery-checkout.html">الدفع</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                                 </ul>
                                             </div>
                                             <div class="widget widget-links">
                                                 <h6 class="fs-base mb-3">توصيل طلبات الطعام</h6>
                                                 <ul class="widget-list">
+<<<<<<< HEAD
                                                     <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-category.ar.php">صفحة الفئة</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-single.ar.php">صنف واحد (مطعم)</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-cart.ar.php">عربة التسوق (طلبك)</a></li>
                                                     <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-checkout.ar.php">الخروج (العنوان والدفع)</a></li>
+=======
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-category.html">صفحة الفئة</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-single.html">صنف واحد (مطعم)</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-cart.html">عربة التسوق (طلبك)</a></li>
+                                                    <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-checkout.html">الخروج (العنوان والدفع)</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                                 </ul>
                                             </div>
                                         </div>
@@ -489,6 +544,7 @@
                                 <ul class="dropdown-menu">
                                     <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">حساب مستخدم المتجر</a>
                                         <ul class="dropdown-menu">
+<<<<<<< HEAD
                                             <li><a class="dropdown-item" href="account-orders.ar.php">تاريخ الطلبات</a></li>
                                             <li><a class="dropdown-item" href="account-profile.ar.php">إعدادات الملف الشخصي</a></li>
                                             <li><a class="dropdown-item" href="account-address.ar.php">عناوين الحساب</a></li>
@@ -496,10 +552,20 @@
                                             <li><a class="dropdown-item" href="account-wishlist.ar.php">قائمة الرغبات</a></li>
                                             <li><a class="dropdown-item" href="account-tickets.ar.php">تذاكري</a></li>
                                             <li><a class="dropdown-item" href="account-single-ticket.ar.php">تذكره لشخص واحد</a></li>
+=======
+                                            <li><a class="dropdown-item" href="account-orders.html">تاريخ الطلبات</a></li>
+                                            <li><a class="dropdown-item" href="account-profile.html">إعدادات الملف الشخصي</a></li>
+                                            <li><a class="dropdown-item" href="account-address.html">عناوين الحساب</a></li>
+                                            <li><a class="dropdown-item" href="account-payment.html">طرق الدفع</a></li>
+                                            <li><a class="dropdown-item" href="account-wishlist.html">قائمة الرغبات</a></li>
+                                            <li><a class="dropdown-item" href="account-tickets.html">تذاكري</a></li>
+                                            <li><a class="dropdown-item" href="account-single-ticket.html">تذكره لشخص واحد</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">لوحة معلومات البائع</a>
                                         <ul class="dropdown-menu">
+<<<<<<< HEAD
                                             <li><a class="dropdown-item" href="dashboard-settings.ar.php">إعدادات</a></li>
                                             <li><a class="dropdown-item" href="dashboard-purchases.ar.php">المشتريات</a></li>
                                             <li><a class="dropdown-item" href="dashboard-favorites.ar.php">المفضلة</a></li>
@@ -511,12 +577,26 @@
                                     </li>
                                     <li><a class="dropdown-item" href="account-signin.ar.php">تسجيل الدخول / التسجيل</a></li>
                                     <li><a class="dropdown-item" href="account-password-recovery.ar.php">استعادة كلمة السر</a></li>
+=======
+                                            <li><a class="dropdown-item" href="dashboard-settings.html">إعدادات</a></li>
+                                            <li><a class="dropdown-item" href="dashboard-purchases.html">المشتريات</a></li>
+                                            <li><a class="dropdown-item" href="dashboard-favorites.html">المفضلة</a></li>
+                                            <li><a class="dropdown-item" href="dashboard-sales.html">مبيعات</a></li>
+                                            <li><a class="dropdown-item" href="dashboard-products.html">منتجات</a></li>
+                                            <li><a class="dropdown-item" href="dashboard-add-new-product.html">اضافة منتج جديد</a></li>
+                                            <li><a class="dropdown-item" href="dashboard-payouts.html">المدفوعات</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="account-signin.html">تسجيل الدخول / التسجيل</a></li>
+                                    <li><a class="dropdown-item" href="account-password-recovery.html">استعادة كلمة السر</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                 </ul>
                             </li>
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">الصفحات</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">متغيرات نافبار</a>
                                         <ul class="dropdown-menu">
+<<<<<<< HEAD
                                             <li><a class="dropdown-item" href="navbar-1-level-light.ar.php">1 مستوى الضوء</a></li>
                                             <li><a class="dropdown-item" href="navbar-1-level-dark.ar.php">1 مستوى الظلام</a></li>
                                             <li><a class="dropdown-item" href="navbar-2-level-light.ar.php">2 مستوى الضوء</a></li>
@@ -536,55 +616,112 @@
                                             <li><a class="dropdown-item" href="help-topics.ar.php">مواضيع التعليمات</a></li>
                                             <li><a class="dropdown-item" href="help-single-topic.ar.php">موضوع واحد</a></li>
                                             <li><a class="dropdown-item" href="help-submit-request.ar.php">تقديم طلب</a></li>
+=======
+                                            <li><a class="dropdown-item" href="navbar-1-level-light.html">1 مستوى الضوء</a></li>
+                                            <li><a class="dropdown-item" href="navbar-1-level-dark.html">1 مستوى الظلام</a></li>
+                                            <li><a class="dropdown-item" href="navbar-2-level-light.html">2 مستوى الضوء</a></li>
+                                            <li><a class="dropdown-item" href="navbar-2-level-dark.html">2 مستوى الظلام</a></li>
+                                            <li><a class="dropdown-item" href="navbar-3-level-light.html">3 مستوى الضوء</a></li>
+                                            <li><a class="dropdown-item" href="navbar-3-level-dark.html">3 مستوى الظلام</a></li>
+                                            <li><a class="dropdown-item" href="home-electronics-store.html">متجر للالكترونيات</a></li>
+                                            <li><a class="dropdown-item" href="home-marketplace.html">المتجر</a></li>
+                                            <li><a class="dropdown-item" href="home-grocery-store.html">قائمة جانبية (بقالة)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="about.html">معلومات عنا</a></li>
+                                    <li><a class="dropdown-item" href="contacts.html">جهات الاتصال</a></li>
+                                    <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">مركز المساعدة</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="help-topics.html">مواضيع التعليمات</a></li>
+                                            <li><a class="dropdown-item" href="help-single-topic.html">موضوع واحد</a></li>
+                                            <li><a class="dropdown-item" href="help-submit-request.html">تقديم طلب</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">تقديم طلب</a>
                                         <ul class="dropdown-menu">
+<<<<<<< HEAD
                                             <li><a class="dropdown-item" href="404-simple.ar.php">404 - نص بسيط</a></li>
                                             <li><a class="dropdown-item" href="404-illustration.ar.php">404 - رسم توضيحي</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="sticky-footer.ar.php">عرض تذييل مثبت</a></li>
+=======
+                                            <li><a class="dropdown-item" href="404-simple.html">404 - نص بسيط</a></li>
+                                            <li><a class="dropdown-item" href="404-illustration.html">404 - رسم توضيحي</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="sticky-footer.html">عرض تذييل مثبت</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                 </ul>
                             </li>
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">مقالات</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">تخطيطات قائمة المدونة</a>
                                         <ul class="dropdown-menu">
+<<<<<<< HEAD
                                             <li><a class="dropdown-item" href="blog-list-sidebar.ar.php">قائمة مع الشريط الجانبي</a></li>
                                             <li><a class="dropdown-item" href="blog-list.ar.php">لا قائمة الشريط الجانبي</a></li>
+=======
+                                            <li><a class="dropdown-item" href="blog-list-sidebar.html">قائمة مع الشريط الجانبي</a></li>
+                                            <li><a class="dropdown-item" href="blog-list.html">لا قائمة الشريط الجانبي</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">تخطيطات شبكة المدونة</a>
                                         <ul class="dropdown-menu">
+<<<<<<< HEAD
                                             <li><a class="dropdown-item" href="blog-grid-sidebar.ar.php">شبكة مع الشريط الجانبي</a></li>
                                             <li><a class="dropdown-item" href="blog-grid.ar.php">الشبكة لا يوجد شريط جانبي</a></li>
+=======
+                                            <li><a class="dropdown-item" href="blog-grid-sidebar.html">شبكة مع الشريط الجانبي</a></li>
+                                            <li><a class="dropdown-item" href="blog-grid.html">الشبكة لا يوجد شريط جانبي</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">تخطيطات وظيفة واحدة</a>
                                         <ul class="dropdown-menu">
+<<<<<<< HEAD
                                             <li><a class="dropdown-item" href="blog-single-sidebar.ar.php">مقالة مع الشريط الجانبي</a></li>
                                             <li><a class="dropdown-item" href="blog-single.ar.php">رقم المادة الشريط الجانبي</a></li>
+=======
+                                            <li><a class="dropdown-item" href="blog-single-sidebar.html">مقالة مع الشريط الجانبي</a></li>
+                                            <li><a class="dropdown-item" href="blog-single.html">رقم المادة الشريط الجانبي</a></li>
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">المستندات / المكونات</a>
                                 <ul class="dropdown-menu">
+<<<<<<< HEAD
                                     <li><a class="dropdown-item" href="docs/dev-setup.ar.php">
+=======
+                                    <li><a class="dropdown-item" href="docs/dev-setup.html">
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                             <div class="d-flex">
                                                 <div class="lead text-muted pt-1"><i class="ci-book"></i></div>
                                                 <div class="ms-2"><span class="d-block text-heading">توثيق</span><small class="d-block text-muted">تخصيص البداية</small></div>
                                             </div></a></li>
                                     <li class="dropdown-divider"></li>
+<<<<<<< HEAD
                                     <li><a class="dropdown-item" href="components/typography.ar.php">
+=======
+                                    <li><a class="dropdown-item" href="components/typography.html">
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                             <div class="d-flex">
                                                 <div class="lead text-muted pt-1"><i class="ci-server"></i></div>
                                                 <div class="ms-2"><span class="d-block text-heading">عناصر<span class="badge bg-info ms-2">40+</span></span><small class="d-block text-muted">بناء أسرع للصفحة</small></div>
                                             </div></a></li>
                                     <li class="dropdown-divider"></li>
+<<<<<<< HEAD
                                     <li><a class="dropdown-item" href="docs/changelog.ar.php">
+=======
+                                    <li><a class="dropdown-item" href="docs/changelog.html">
+>>>>>>> 81de5bd565384bd9e05b31352374016d4c506a2d
                                             <div class="d-flex">
                                                 <div class="lead text-muted pt-1"><i class="ci-edit"></i></div>
                                                 <div class="ms-2"><span class="d-block text-heading">التغيير<span class="badge bg-success ms-2">v2.2.0</span></span><small class="d-block text-muted">تحديثات منتظمة</small></div>
