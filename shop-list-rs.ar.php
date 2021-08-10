@@ -1,5 +1,5 @@
 <?php
-include 'templates/header-ar.php.php'
+include 'templates/header-ar.php'
 ?>      <!-- Page Title-->
       <div class="page-title-overlap bg-dark pt-4">
         <div class="container d-lg-flex justify-content-between py-2 py-lg-3">

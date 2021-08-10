@@ -9,15 +9,15 @@ include 'templates/header-ar.php'
             <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-light flex-lg-nowrap justify-content-center justify-content-lg-start">
-                  <li class="breadcrumb-item"><a class="text-nowrap" href="index.html"><i class="ci-home"></i>Home</a></li>
-                  <li class="breadcrumb-item text-nowrap"><a href="#">Shop</a>
+                  <li class="breadcrumb-item"><a class="text-nowrap" href="index.html"><i class="ci-home"></i>الرئيسية</a></li>
+                  <li class="breadcrumb-item text-nowrap"><a href="#">متجر</a>
                   </li>
-                  <li class="breadcrumb-item text-nowrap active" aria-current="page">List filters on top</li>
+                  <li class="breadcrumb-item text-nowrap active" aria-current="page">قائمة المرشحات في الأعلى</li>
                 </ol>
               </nav>
             </div>
             <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
-              <h1 class="h3 text-light mb-0">Shop list filters on top</h1>
+              <h1 class="h3 text-light mb-0">تصفية قائمة التسوق في الأعلى</h1>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ include 'templates/header-ar.php'
         <!-- Toolbar-->
         <div class="bg-light shadow-lg rounded-3 p-4 mt-n5 mb-4">
           <div class="d-flex justify-content-between align-items-center">
-            <div class="dropdown me-2"><a class="btn btn-outline-secondary dropdown-toggle" href="#shop-filters" data-bs-toggle="collapse"><i class="ci-filter me-2"></i>Filters</a></div>
+            <div class="dropdown me-2"><a class="btn btn-outline-secondary dropdown-toggle" href="#shop-filters" data-bs-toggle="collapse"><i class="ci-filter me-2"></i>المرشحات</a></div>
             <div class="d-flex"><a class="nav-link-style me-3" href="#"><i class="ci-arrow-left"></i></a><span class="fs-md">1 / 5</span><a class="nav-link-style ms-3" href="#"><i class="ci-arrow-right"></i></a></div>
             <div class="d-none d-sm-flex"><a class="btn btn-icon nav-link-style me-2" href="shop-grid-ft.html"><i class="ci-view-grid"></i></a><a class="btn btn-icon nav-link-style bg-primary text-light disabled opacity-100" href="#"><i class="ci-view-list"></i></a></div>
           </div>
@@ -38,32 +38,32 @@ include 'templates/header-ar.php'
                 <div class="card mb-grid-gutter">
                   <div class="card-body px-4">
                     <div class="widget widget-categories">
-                      <h3 class="widget-title">Categories</h3>
+                      <h3 class="widget-title">فئات</h3>
                       <div class="accordion mt-n1" id="shop-categories">
                         <!-- Shoes-->
                         <div class="accordion-item">
-                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#shoes" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="shoes">Shoes</a></h3>
+                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#shoes" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="shoes">أحذية</a></h3>
                           <div class="accordion-collapse collapse" id="shoes" data-bs-parent="#shop-categories">
                             <div class="accordion-body">
                               <div class="widget widget-links widget-filter">
                                 <div class="input-group input-group-sm mb-2">
-                                  <input class="widget-filter-search form-control rounded-end" type="text" placeholder="Search"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
+                                  <input class="widget-filter-search form-control rounded-end" type="text" placeholder="بحث"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
                                 </div>
                                 <ul class="widget-list widget-filter-list pt-1" style="height: 12rem;" data-simplebar data-simplebar-auto-hide="false">
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">View all</span><span class="fs-xs text-muted ms-3">1,953</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Pumps &amp; High Heels</span><span class="fs-xs text-muted ms-3">247</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Ballerinas &amp; Flats</span><span class="fs-xs text-muted ms-3">156</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Sandals</span><span class="fs-xs text-muted ms-3">310</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Sneakers</span><span class="fs-xs text-muted ms-3">402</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Boots</span><span class="fs-xs text-muted ms-3">393</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Ankle Boots</span><span class="fs-xs text-muted ms-3">50</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Loafers</span><span class="fs-xs text-muted ms-3">93</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Slip-on</span><span class="fs-xs text-muted ms-3">122</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Flip Flops</span><span class="fs-xs text-muted ms-3">116</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Clogs &amp; Mules</span><span class="fs-xs text-muted ms-3">24</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Athletic Shoes</span><span class="fs-xs text-muted ms-3">31</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Oxfords</span><span class="fs-xs text-muted ms-3">9</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Smart Shoes</span><span class="fs-xs text-muted ms-3">18</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">مشاهدة الكل</span><span class="fs-xs text-muted ms-3">1,953</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Pumps &amp; High Heels</span><span class="fs-xs text-muted ms-3">247</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">راقصات الباليه &amp; الشقق</span><span class="fs-xs text-muted ms-3">156</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">صنادل</span><span class="fs-xs text-muted ms-3">310</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">أحذية</span><span class="fs-xs text-muted ms-3">402</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">أحذية</span><span class="fs-xs text-muted ms-3">393</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">جزمة الكاحل</span><span class="fs-xs text-muted ms-3">50</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">المتسكعون</span><span class="fs-xs text-muted ms-3">93</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">الانزلاق على</span><span class="fs-xs text-muted ms-3">122</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">شباشب</span><span class="fs-xs text-muted ms-3">116</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">شباشب &amp; البغال</span><span class="fs-xs text-muted ms-3">24</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حذاء رياضي</span><span class="fs-xs text-muted ms-3">31</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">أوكسفورد</span><span class="fs-xs text-muted ms-3">9</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">أحذية الذكية</span><span class="fs-xs text-muted ms-3">18</span></a></li>
                                 </ul>
                               </div>
                             </div>
@@ -71,34 +71,34 @@ include 'templates/header-ar.php'
                         </div>
                         <!-- Clothing-->
                         <div class="accordion-item">
-                          <h3 class="accordion-header"><a class="accordion-button" href="#clothing" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="clothing">Clothing</a></h3>
+                          <h3 class="accordion-header"><a class="accordion-button" href="#clothing" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="clothing">ملابس</a></h3>
                           <div class="accordion-collapse collapse show" id="clothing" data-bs-parent="#shop-categories">
                             <div class="accordion-body">
                               <div class="widget widget-links widget-filter">
                                 <div class="input-group input-group-sm mb-2">
-                                  <input class="widget-filter-search form-control rounded-end" type="text" placeholder="Search"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
+                                  <input class="widget-filter-search form-control rounded-end" type="text" placeholder="بحث"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
                                 </div>
                                 <ul class="widget-list widget-filter-list pt-1" style="height: 12rem;" data-simplebar data-simplebar-auto-hide="false">
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">View all</span><span class="fs-xs text-muted ms-3">2,548</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Blazers &amp; Suits</span><span class="fs-xs text-muted ms-3">235</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Blouses</span><span class="fs-xs text-muted ms-3">410</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Cardigans &amp; Jumpers</span><span class="fs-xs text-muted ms-3">107</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Dresses</span><span class="fs-xs text-muted ms-3">93</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Hoodie &amp; Sweatshirts</span><span class="fs-xs text-muted ms-3">122</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Jackets &amp; Coats</span><span class="fs-xs text-muted ms-3">116</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Jeans</span><span class="fs-xs text-muted ms-3">215</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Lingerie</span><span class="fs-xs text-muted ms-3">150</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Maternity Wear</span><span class="fs-xs text-muted ms-3">8</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Nightwear</span><span class="fs-xs text-muted ms-3">26</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Shirts</span><span class="fs-xs text-muted ms-3">164</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Shorts</span><span class="fs-xs text-muted ms-3">147</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Socks &amp; Tights</span><span class="fs-xs text-muted ms-3">139</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Sportswear</span><span class="fs-xs text-muted ms-3">65</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Swimwear</span><span class="fs-xs text-muted ms-3">18</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">T-shirts &amp; Vests</span><span class="fs-xs text-muted ms-3">209</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Tops</span><span class="fs-xs text-muted ms-3">132</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Trousers</span><span class="fs-xs text-muted ms-3">105</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Underwear</span><span class="fs-xs text-muted ms-3">87</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">مشاهدة الكل</span><span class="fs-xs text-muted ms-3">2,548</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">بليزر &amp; بدلة</span><span class="fs-xs text-muted ms-3">235</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">البلوزات</span><span class="fs-xs text-muted ms-3">410</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">بالأزرار &amp; صداري</span><span class="fs-xs text-muted ms-3">107</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">فساتين</span><span class="fs-xs text-muted ms-3">93</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">زنط &amp; بلوزات</span><span class="fs-xs text-muted ms-3">122</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">جاكيتات &amp; المعاطف</span><span class="fs-xs text-muted ms-3">116</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">جينز</span><span class="fs-xs text-muted ms-3">215</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">الملابس الداخلية</span><span class="fs-xs text-muted ms-3">150</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">ملابس الأمومة</span><span class="fs-xs text-muted ms-3">8</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">ملابس نوم</span><span class="fs-xs text-muted ms-3">26</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">قمصان</span><span class="fs-xs text-muted ms-3">164</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">السراويل القصيرة</span><span class="fs-xs text-muted ms-3">147</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">جوارب &amp; الجوارب</span><span class="fs-xs text-muted ms-3">139</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">ملابس رياضية</span><span class="fs-xs text-muted ms-3">65</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">ملابس سباحة</span><span class="fs-xs text-muted ms-3">18</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">قمصان &amp; سترات</span><span class="fs-xs text-muted ms-3">209</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">بلايز</span><span class="fs-xs text-muted ms-3">132</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">بنطلون</span><span class="fs-xs text-muted ms-3">105</span></a></li>
+                                        <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">ثياب داخلية</span><span class="fs-xs text-muted ms-3">87</span></a></li>
                                 </ul>
                               </div>
                             </div>
@@ -106,28 +106,28 @@ include 'templates/header-ar.php'
                         </div>
                         <!-- Bags-->
                         <div class="accordion-item">
-                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#bags" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="bags">Bags</a></h3>
+                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#bags" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="bags">أكياس</a></h3>
                           <div class="accordion-collapse collapse" id="bags" data-bs-parent="#shop-categories">
                             <div class="accordion-body">
                               <div class="widget widget-links widget-filter">
                                 <div class="input-group input-group-sm mb-2">
-                                  <input class="widget-filter-search form-control rounded-end" type="text" placeholder="Search"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
+                                  <input class="widget-filter-search form-control rounded-end" type="text" placeholder="بحث"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
                                 </div>
                                 <ul class="widget-list widget-filter-list pt-1" style="height: 12rem;" data-simplebar data-simplebar-auto-hide="false">
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">View all</span><span class="fs-xs text-muted ms-3">801</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Handbags</span><span class="fs-xs text-muted ms-3">238</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Backpacks</span><span class="fs-xs text-muted ms-3">116</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Wallets</span><span class="fs-xs text-muted ms-3">104</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Luggage</span><span class="fs-xs text-muted ms-3">115</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Lumbar Packs</span><span class="fs-xs text-muted ms-3">17</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Duffle Bags</span><span class="fs-xs text-muted ms-3">9</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Bag / Travel Accessories</span><span class="fs-xs text-muted ms-3">93</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Diaper Bags</span><span class="fs-xs text-muted ms-3">5</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Lunch Bags</span><span class="fs-xs text-muted ms-3">8</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Messenger Bags</span><span class="fs-xs text-muted ms-3">2</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Laptop Bags</span><span class="fs-xs text-muted ms-3">31</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Briefcases</span><span class="fs-xs text-muted ms-3">45</span></a></li>
-                                  <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">Sport Bags</span><span class="fs-xs text-muted ms-3">18</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">مشاهدة الكل</span><span class="fs-xs text-muted ms-3">801</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حقائب اليد</span><span class="fs-xs text-muted ms-3">238</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حقائب ظهر</span><span class="fs-xs text-muted ms-3">116</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">محافظ</span><span class="fs-xs text-muted ms-3">104</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حقائب سفر</span><span class="fs-xs text-muted ms-3">115</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حزم قطني</span><span class="fs-xs text-muted ms-3">17</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">اكياس واقية من المطر</span><span class="fs-xs text-muted ms-3">9</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حقيبة / اكسسوارات السفر</span><span class="fs-xs text-muted ms-3">93</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">أكياس حفاظات</span><span class="fs-xs text-muted ms-3">5</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">أكياس الغداء</span><span class="fs-xs text-muted ms-3">8</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حقائب رسول</span><span class="fs-xs text-muted ms-3">2</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حقائب الكمبيوتر المحمول</span><span class="fs-xs text-muted ms-3">31</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حقائب</span><span class="fs-xs text-muted ms-3">45</span></a></li>
+                                    <li class="widget-list-item widget-filter-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span class="widget-filter-item-text">حقائب رياضية</span><span class="fs-xs text-muted ms-3">18</span></a></li>
                                 </ul>
                               </div>
                             </div>
@@ -135,15 +135,15 @@ include 'templates/header-ar.php'
                         </div>
                         <!-- Sunglasses-->
                         <div class="accordion-item">
-                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#sunglasses" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="sunglasses">Sunglasses</a></h3>
+                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#sunglasses" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="sunglasses">نظارة شمسيه</a></h3>
                           <div class="collapse" id="sunglasses" data-bs-parent="#shop-categories">
                             <div class="accordion-body">
                               <div class="widget widget-links">
                                 <ul class="widget-list">
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>View all</span><span class="fs-xs text-muted ms-3">1,842</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Fashion Sunglasses</span><span class="fs-xs text-muted ms-3">953</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Sport Sunglasses</span><span class="fs-xs text-muted ms-3">589</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Classic Sunglasses</span><span class="fs-xs text-muted ms-3">300</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>مشاهدة الكل</span><span class="fs-xs text-muted ms-3">1,842</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>أزياء النظارات الشمسية</span><span class="fs-xs text-muted ms-3">953</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>نظارات شمسية رياضية</span><span class="fs-xs text-muted ms-3">589</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>النظارات الشمسية الكلاسيكية</span><span class="fs-xs text-muted ms-3">300</span></a></li>
                                 </ul>
                               </div>
                             </div>
@@ -151,16 +151,16 @@ include 'templates/header-ar.php'
                         </div>
                         <!-- Watches-->
                         <div class="accordion-item">
-                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#watches" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="watches">Watches</a></h3>
+                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#watches" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="watches">ساعات</a></h3>
                           <div class="accordion-collapse collapse" id="watches" data-bs-parent="#shop-categories">
                             <div class="accordion-body">
                               <div class="widget widget-links">
                                 <ul class="widget-list">
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>View all</span><span class="fs-xs text-muted ms-3">734</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Fashion Watches</span><span class="fs-xs text-muted ms-3">572</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Casual Watches</span><span class="fs-xs text-muted ms-3">110</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Luxury Watches</span><span class="fs-xs text-muted ms-3">34</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Sport Watches</span><span class="fs-xs text-muted ms-3">18</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>مشاهدة الكل</span><span class="fs-xs text-muted ms-3">734</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>ساعات الموضة</span><span class="fs-xs text-muted ms-3">572</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>ساعات عادية</span><span class="fs-xs text-muted ms-3">110</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>ساعات فاخرة</span><span class="fs-xs text-muted ms-3">34</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>ساعات رياضية</span><span class="fs-xs text-muted ms-3">18</span></a></li>
                                 </ul>
                               </div>
                             </div>
@@ -168,16 +168,16 @@ include 'templates/header-ar.php'
                         </div>
                         <!-- Accessories-->
                         <div class="accordion-item">
-                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#accessories" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accessories">Accessories</a></h3>
+                          <h3 class="accordion-header"><a class="accordion-button collapsed" href="#accessories" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accessories">مكملات</a></h3>
                           <div class="accordion-collapse collapse" id="accessories" data-bs-parent="#shop-categories">
                             <div class="accordion-body">
                               <div class="widget widget-links">
                                 <ul class="widget-list">
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>View all</span><span class="fs-xs text-muted ms-3">920</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Belts</span><span class="fs-xs text-muted ms-3">364</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Hats</span><span class="fs-xs text-muted ms-3">405</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Jewelry</span><span class="fs-xs text-muted ms-3">131</span></a></li>
-                                  <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>Cosmetics</span><span class="fs-xs text-muted ms-3">20</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>مشاهدة الكل</span><span class="fs-xs text-muted ms-3">920</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>أحزمة</span><span class="fs-xs text-muted ms-3">364</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>القبعات</span><span class="fs-xs text-muted ms-3">405</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>مجوهرات</span><span class="fs-xs text-muted ms-3">131</span></a></li>
+                                    <li class="widget-list-item"><a class="widget-list-link d-flex justify-content-between align-items-center" href="#"><span>مستحضرات التجميل</span><span class="fs-xs text-muted ms-3">20</span></a></li>
                                 </ul>
                               </div>
                             </div>
@@ -193,7 +193,7 @@ include 'templates/header-ar.php'
                 <div class="card mb-grid-gutter">
                   <div class="card-body px-4">
                     <div class="widget">
-                      <h3 class="widget-title">Price range</h3>
+                      <h3 class="widget-title">نطاق السعر</h3>
                       <div class="range-slider" data-start-min="250" data-start-max="680" data-min="0" data-max="1000" data-step="1">
                         <div class="range-slider-ui"></div>
                         <div class="d-flex pb-1">
@@ -216,183 +216,183 @@ include 'templates/header-ar.php'
                 <div class="card mb-grid-gutter">
                   <div class="card-body px-4">
                     <div class="widget widget-filter">
-                      <h3 class="widget-title">Brand</h3>
+                      <h3 class="widget-title">البراند</h3>
                       <div class="input-group input-group-sm mb-2">
-                        <input class="widget-filter-search form-control rounded-end pe-5" type="text" placeholder="Search"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
+                        <input class="widget-filter-search form-control rounded-end pe-5" type="text" placeholder="بحث"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
                       </div>
                       <ul class="widget-list widget-filter-list list-unstyled pt-1" style="max-height: 11rem;" data-simplebar data-simplebar-auto-hide="false">
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="adidas">
-                            <label class="form-check-label widget-filter-item-text" for="adidas">Adidas</label>
+                            <label class="form-check-label widget-filter-item-text" for="adidas">شركة اديداس</label>
                           </div><span class="fs-xs text-muted">425</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="ataylor">
-                            <label class="form-check-label widget-filter-item-text" for="ataylor">Ann Taylor</label>
+                            <label class="form-check-label widget-filter-item-text" for="ataylor">آن تايلور</label>
                           </div><span class="fs-xs text-muted">15</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="armani">
-                            <label class="form-check-label widget-filter-item-text" for="armani">Armani</label>
+                            <label class="form-check-label widget-filter-item-text" for="armani">أرماني</label>
                           </div><span class="fs-xs text-muted">18</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="banana">
-                            <label class="form-check-label widget-filter-item-text" for="banana">Banana Republic</label>
+                            <label class="form-check-label widget-filter-item-text" for="banana">جمهورية الموز</label>
                           </div><span class="fs-xs text-muted">103</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="bilabong">
-                            <label class="form-check-label widget-filter-item-text" for="bilabong">Bilabong</label>
+                            <label class="form-check-label widget-filter-item-text" for="bilabong">بيلابونج</label>
                           </div><span class="fs-xs text-muted">27</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="birkenstock">
-                            <label class="form-check-label widget-filter-item-text" for="birkenstock">Birkenstock</label>
+                            <label class="form-check-label widget-filter-item-text" for="birkenstock">بيركنستوك</label>
                           </div><span class="fs-xs text-muted">10</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="klein">
-                            <label class="form-check-label widget-filter-item-text" for="klein">Calvin Klein</label>
+                            <label class="form-check-label widget-filter-item-text" for="klein">كالفن كلاين</label>
                           </div><span class="fs-xs text-muted">365</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="columbia">
-                            <label class="form-check-label widget-filter-item-text" for="columbia">Columbia</label>
+                            <label class="form-check-label widget-filter-item-text" for="columbia">كولومبيا</label>
                           </div><span class="fs-xs text-muted">508</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="converse">
-                            <label class="form-check-label widget-filter-item-text" for="converse">Converse</label>
+                            <label class="form-check-label widget-filter-item-text" for="converse">الحديث</label>
                           </div><span class="fs-xs text-muted">176</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="dockers">
-                            <label class="form-check-label widget-filter-item-text" for="dockers">Dockers</label>
+                            <label class="form-check-label widget-filter-item-text" for="dockers">عمال الرصيف</label>
                           </div><span class="fs-xs text-muted">54</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="fruit">
-                            <label class="form-check-label widget-filter-item-text" for="fruit">Fruit of the Loom</label>
+                            <label class="form-check-label widget-filter-item-text" for="fruit">ثمرة النول</label>
                           </div><span class="fs-xs text-muted">739</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="hanes">
-                            <label class="form-check-label widget-filter-item-text" for="hanes">Hanes</label>
+                            <label class="form-check-label widget-filter-item-text" for="hanes">هانس</label>
                           </div><span class="fs-xs text-muted">92</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="choo">
-                            <label class="form-check-label widget-filter-item-text" for="choo">Jimmy Choo</label>
+                            <label class="form-check-label widget-filter-item-text" for="choo">جيمي تشو</label>
                           </div><span class="fs-xs text-muted">17</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="levis">
-                            <label class="form-check-label widget-filter-item-text" for="levis">Levi's</label>
+                            <label class="form-check-label widget-filter-item-text" for="levis">ليفي</label>
                           </div><span class="fs-xs text-muted">361</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="lee">
-                            <label class="form-check-label widget-filter-item-text" for="lee">Lee</label>
+                            <label class="form-check-label widget-filter-item-text" for="lee">لي</label>
                           </div><span class="fs-xs text-muted">264</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="wearhouse">
-                            <label class="form-check-label widget-filter-item-text" for="wearhouse">Men's Wearhouse</label>
+                            <label class="form-check-label widget-filter-item-text" for="wearhouse">ملابس الرجال</label>
                           </div><span class="fs-xs text-muted">75</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="newbalance">
-                            <label class="form-check-label widget-filter-item-text" for="newbalance">New Balance</label>
+                            <label class="form-check-label widget-filter-item-text" for="newbalance">الرصيد الجديد</label>
                           </div><span class="fs-xs text-muted">218</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="nike">
-                            <label class="form-check-label widget-filter-item-text" for="nike">Nike</label>
+                            <label class="form-check-label widget-filter-item-text" for="nike">نايك</label>
                           </div><span class="fs-xs text-muted">810</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="navy">
-                            <label class="form-check-label widget-filter-item-text" for="navy">Old Navy</label>
+                            <label class="form-check-label widget-filter-item-text" for="navy">البحرية القديمة</label>
                           </div><span class="fs-xs text-muted">147</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="polo">
-                            <label class="form-check-label widget-filter-item-text" for="polo">Polo Ralph Lauren</label>
+                            <label class="form-check-label widget-filter-item-text" for="polo">بولو رالف لورين</label>
                           </div><span class="fs-xs text-muted">64</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="puma">
-                            <label class="form-check-label widget-filter-item-text" for="puma">Puma</label>
+                            <label class="form-check-label widget-filter-item-text" for="puma">بوما</label>
                           </div><span class="fs-xs text-muted">370</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="reebok">
-                            <label class="form-check-label widget-filter-item-text" for="reebok">Reebok</label>
+                            <label class="form-check-label widget-filter-item-text" for="reebok">ريبوك</label>
                           </div><span class="fs-xs text-muted">506</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="skechers">
-                            <label class="form-check-label widget-filter-item-text" for="skechers">Skechers</label>
+                            <label class="form-check-label widget-filter-item-text" for="skechers">سكيتشرز</label>
                           </div><span class="fs-xs text-muted">209</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="hilfiger">
-                            <label class="form-check-label widget-filter-item-text" for="hilfiger">Tommy Hilfiger</label>
+                            <label class="form-check-label widget-filter-item-text" for="hilfiger">تومي هيلفيغر</label>
                           </div><span class="fs-xs text-muted">487</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="armour">
-                            <label class="form-check-label widget-filter-item-text" for="armour">Under Armour</label>
+                            <label class="form-check-label widget-filter-item-text" for="armour">تحت الدرع</label>
                           </div><span class="fs-xs text-muted">90</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="urban">
-                            <label class="form-check-label widget-filter-item-text" for="urban">Urban Outfitters</label>
+                            <label class="form-check-label widget-filter-item-text" for="urban">تجار الملابس في المناطق الحضرية</label>
                           </div><span class="fs-xs text-muted">152</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="vsecret">
-                            <label class="form-check-label widget-filter-item-text" for="vsecret">Victoria's Secret</label>
+                            <label class="form-check-label widget-filter-item-text" for="vsecret">سر فيكتوريا</label>
                           </div><span class="fs-xs text-muted">238</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="wolverine">
-                            <label class="form-check-label widget-filter-item-text" for="wolverine">Wolverine</label>
+                            <label class="form-check-label widget-filter-item-text" for="wolverine">ولفيرين</label>
                           </div><span class="fs-xs text-muted">29</span>
                         </li>
                         <li class="widget-filter-item d-flex justify-content-between align-items-center">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="wrangler">
-                            <label class="form-check-label widget-filter-item-text" for="wrangler">Wrangler</label>
+                            <label class="form-check-label widget-filter-item-text" for="wrangler">رانجلر</label>
                           </div><span class="fs-xs text-muted">115</span>
                         </li>
                       </ul>
@@ -405,9 +405,9 @@ include 'templates/header-ar.php'
                 <div class="card mb-grid-gutter">
                   <div class="card-body px-4">
                     <div class="widget widget-filter">
-                      <h3 class="widget-title">Size</h3>
+                      <h3 class="widget-title">المقاس</h3>
                       <div class="input-group input-group-sm mb-2">
-                        <input class="widget-filter-search form-control rounded-end pe-5" type="text" placeholder="Search"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
+                        <input class="widget-filter-search form-control rounded-end pe-5" type="text" placeholder="بحث"><i class="ci-search position-absolute top-50 end-0 translate-middle-y fs-sm me-3"></i>
                       </div>
                       <ul class="widget-list widget-filter-list list-unstyled pt-1" style="max-height: 11.5rem;" data-simplebar data-simplebar-auto-hide="false">
                         <li class="widget-filter-item d-flex justify-content-between align-items-center mb-1">
@@ -520,27 +520,27 @@ include 'templates/header-ar.php'
                 <div class="card mb-grid-gutter">
                   <div class="card-body px-4">
                     <div class="widget">
-                      <h3 class="widget-title">Color</h3>
+                      <h3 class="widget-title">الالوان</h3>
                       <div class="d-flex flex-wrap">
                         <div class="form-check form-option text-center mb-2 mx-1" style="width: 4rem;">
                           <input class="form-check-input" type="checkbox" id="color-blue-gray">
                           <label class="form-option-label rounded-circle" for="color-blue-gray"><span class="form-option-color rounded-circle" style="background-color: #b3c8db;"></span></label>
-                          <label class="d-block fs-xs text-muted mt-n1" for="color-blue-gray">Blue-gray</label>
+                          <label class="d-block fs-xs text-muted mt-n1" for="color-blue-gray">ازرق رمادي</label>
                         </div>
                         <div class="form-check form-option text-center mb-2 mx-1" style="width: 4rem;">
                           <input class="form-check-input" type="checkbox" id="color-burgundy">
                           <label class="form-option-label rounded-circle" for="color-burgundy"><span class="form-option-color rounded-circle" style="background-color: #ca7295;"></span></label>
-                          <label class="d-block fs-xs text-muted mt-n1" for="color-burgundy">Burgundy</label>
+                          <label class="d-block fs-xs text-muted mt-n1" for="color-burgundy">بورجوندي</label>
                         </div>
                         <div class="form-check form-option text-center mb-2 mx-1" style="width: 4rem;">
                           <input class="form-check-input" type="checkbox" id="color-teal">
                           <label class="form-option-label rounded-circle" for="color-teal"><span class="form-option-color rounded-circle" style="background-color: #91c2c3;"></span></label>
-                          <label class="d-block fs-xs text-muted mt-n1" for="color-teal">Teal</label>
+                          <label class="d-block fs-xs text-muted mt-n1" for="color-teal">بط نهري صغير</label>
                         </div>
                         <div class="form-check form-option text-center mb-2 mx-1" style="width: 4rem;">
                           <input class="form-check-input" type="checkbox" id="color-brown">
                           <label class="form-option-label rounded-circle" for="color-brown"><span class="form-option-color rounded-circle" style="background-color: #9a8480;"></span></label>
-                          <label class="d-block fs-xs text-muted mt-n1" for="color-brown">Brown</label>
+                          <label class="d-block fs-xs text-muted mt-n1" for="color-brown">بني</label>
                         </div>
                         <div class="form-check form-option text-center mb-2 mx-1" style="width: 4rem;">
                           <input class="form-check-input" type="checkbox" id="color-coral-red">
@@ -550,17 +550,17 @@ include 'templates/header-ar.php'
                         <div class="form-check form-option text-center mb-2 mx-1" style="width: 4rem;">
                           <input class="form-check-input" type="checkbox" id="color-navy">
                           <label class="form-option-label rounded-circle" for="color-navy"><span class="form-option-color rounded-circle" style="background-color: #696dc8;"></span></label>
-                          <label class="d-block fs-xs text-muted mt-n1" for="color-navy">Navy</label>
+                          <label class="d-block fs-xs text-muted mt-n1" for="color-navy">القوات البحرية</label>
                         </div>
                         <div class="form-check form-option text-center mb-2 mx-1" style="width: 4rem;">
                           <input class="form-check-input" type="checkbox" id="color-charcoal">
                           <label class="form-option-label rounded-circle" for="color-charcoal"><span class="form-option-color rounded-circle" style="background-color: #4e4d4d;"></span></label>
-                          <label class="d-block fs-xs text-muted mt-n1" for="color-charcoal">Charcoal</label>
+                          <label class="d-block fs-xs text-muted mt-n1" for="color-charcoal">فحم</label>
                         </div>
                         <div class="form-check form-option text-center mb-2 mx-1" style="width: 4rem;">
                           <input class="form-check-input" type="checkbox" id="color-sky-blue">
                           <label class="form-option-label rounded-circle" for="color-sky-blue"><span class="form-option-color rounded-circle" style="background-color: #8bcdf5;"></span></label>
-                          <label class="d-block fs-xs text-muted mt-n1" for="color-sky-blue">Sky blue</label>
+                          <label class="d-block fs-xs text-muted mt-n1" for="color-sky-blue">السماء الزرقاء</label>
                         </div>
                       </div>
                     </div>
@@ -575,10 +575,10 @@ include 'templates/header-ar.php'
           <section class="col-lg-8 pt-2">
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/01.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Sneakers &amp; Keds</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">Women Colorblock Sneakers</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">أحذية رياضية &amp; كيدز</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">أحذية رياضية نسائية ملون</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$154.<small>00</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
@@ -603,8 +603,8 @@ include 'templates/header-ar.php'
                         <label class="form-option-label" for="s-90">9</label>
                       </div>
                     </div>
-                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -612,10 +612,10 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list"><span class="badge bg-danger badge-shadow">Sale</span>
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/02.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Women’s T-shirt</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">Cotton Lace Blouse</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">قميص نسائي</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">بلوزة من الدانتيل القطني</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$28.<small>50</small></span>
                       <del class="fs-sm text-muted">38.<small>50</small></del>
@@ -650,9 +650,9 @@ include 'templates/header-ar.php'
                         <option>L</option>
                         <option>XL</option>
                       </select>
-                      <button class="btn btn-primary btn-sm" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
+                      <button class="btn btn-primary btn-sm" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
                     </div>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -660,10 +660,10 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/03.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Women’s Shorts</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">Mom High Waist Shorts</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">سراويل نسائية</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">أمي السراويل عالية الخصر</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$39.<small>50</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
@@ -688,8 +688,8 @@ include 'templates/header-ar.php'
                         <label class="form-option-label" for="l">L</label>
                       </div>
                     </div>
-                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -697,10 +697,10 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/04.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Sportswear</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">Women Sports Jacket</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">ملابس رياضية</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">سترة رياضية نسائية</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$68.<small>40</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i>
@@ -725,8 +725,8 @@ include 'templates/header-ar.php'
                         <label class="form-option-label" for="l2">L</label>
                       </div>
                     </div>
-                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -734,17 +734,17 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"> <a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/05.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Men’s Sunglasses</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">Polarized Sunglasses</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">نظارات رجالية</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">النظارات الشمسية المستقطبة</a></h3>
                   <div class="d-flex justify-content-between">
-                    <div class="product-price"><span class="text-muted fs-sm">Out of stock</span></div>
+                    <div class="product-price"><span class="text-muted fs-sm">إنتهى من المخزن</span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
                     </div>
                   </div>
-                  <div class="card-body card-body-hidden"><a class="btn btn-secondary btn-sm mb-2" href="shop-single-v1.html">View details</a>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                  <div class="card-body card-body-hidden"><a class="btn btn-secondary btn-sm mb-2" href="shop-single-v1.html">عرض التفاصيل</a>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -752,10 +752,10 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/06.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Backpacks</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">TH Jeans City Backpack</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">حقائب ظهر</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">حقيبة ظهر تي إتش جينز سيتي</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$79.<small>50</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
@@ -776,8 +776,8 @@ include 'templates/header-ar.php'
                         <label class="form-option-label rounded-circle" for="white2"><span class="form-option-color rounded-circle" style="background-color: #eaeaeb;"></span></label>
                       </div>
                     </div>
-                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -785,10 +785,10 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/07.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Women's Swimwear</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">Two-Piece Bikini in Print</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">ملابس السباحة النسائية</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">قطعتين بيكيني مطبوع</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$18.<small>99</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
@@ -809,8 +809,8 @@ include 'templates/header-ar.php'
                         <label class="form-option-label" for="m3">M</label>
                       </div>
                     </div>
-                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -818,18 +818,18 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/08.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Kid's Toys</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">Soft Panda Teddy Bear</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">لعب الاطفال</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">لينة الباندا تيدي بير</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$14.<small>99</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
                     </div>
                   </div>
                   <div class="card-body card-body-hidden">
-                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -837,10 +837,10 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/09.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Cosmetics</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">Metallic Lipstick (Crimson)</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">مستحضرات التجميل</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">أحمر شفاه ميتاليك (قرمزي)</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$12.<small>99</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
@@ -861,8 +861,8 @@ include 'templates/header-ar.php'
                         <label class="form-option-label rounded-circle" for="palm"><span class="form-option-color rounded-circle" style="background-color: #ca8799;"></span></label>
                       </div>
                     </div>
-                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -870,18 +870,18 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/10.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Men’s Accessories</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">5-Pack Multicolor Bracelets</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">اكسسوارات رجالية</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">5 عبوات من الأساور متعددة الألوان</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$7.<small>99</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
                     </div>
                   </div>
                   <div class="card-body card-body-hidden">
-                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -889,10 +889,10 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/11.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Men’s Sandals</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">Soft Footbed Sandals</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">صنادل رجالية</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">صندل ناعم للقدم</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$99.<small>50</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i>
@@ -921,9 +921,9 @@ include 'templates/header-ar.php'
                         <option>11</option>
                         <option>11.5</option>
                       </select>
-                      <button class="btn btn-primary btn-sm" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
+                      <button class="btn btn-primary btn-sm" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
                     </div>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -931,10 +931,10 @@ include 'templates/header-ar.php'
             <div class="border-top pt-3 mt-3"></div>
             <!-- Product-->
             <div class="card product-card product-list">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="أضف إلى قائمة الامنيات"><i class="ci-heart"></i></button>
               <div class="d-sm-flex align-items-center"><a class="product-list-thumb" href="shop-single-v1.html"><img src="img/shop/catalog/12.jpg" alt="Product"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Men’s Hats</a>
-                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">3-Color Sun Stash Hat</a></h3>
+                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">قبعات الرجال</a>
+                  <h3 class="product-title fs-base"><a href="shop-single-v1.html">3- قبعة كولور صن ستاش</a></h3>
                   <div class="d-flex justify-content-between">
                     <div class="product-price"><span class="text-accent">$25.<small>99</small></span></div>
                     <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
@@ -955,8 +955,8 @@ include 'templates/header-ar.php'
                         <label class="form-option-label" for="l4">L</label>
                       </div>
                     </div>
-                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>Add to Cart</button>
-                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
+                    <button class="btn btn-primary btn-sm mb-2" type="button"><i class="ci-cart fs-sm me-1"></i>أضف إلى السلة</button>
+                    <div class="text-start"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>نظرة سريعة</a></div>
                   </div>
                 </div>
               </div>
@@ -965,18 +965,18 @@ include 'templates/header-ar.php'
             <!-- Pagination-->
             <nav class="d-flex justify-content-between pt-2" aria-label="Page navigation">
               <ul class="pagination">
-                <li class="page-item"><a class="page-link" href="#"><i class="ci-arrow-left me-2"></i>Prev</a></li>
+                <li class="page-item"><a class="page-link" href="#"><i class="ci-arrow-left me-2"></i>السابق</a></li>
               </ul>
               <ul class="pagination">
                 <li class="page-item d-sm-none"><span class="page-link page-link-static">1 / 5</span></li>
-                <li class="page-item active d-none d-sm-block" aria-current="page"><span class="page-link">1<span class="visually-hidden">(current)</span></span></li>
+                <li class="page-item active d-none d-sm-block" aria-current="page"><span class="page-link">1<span class="visually-hidden">(تيار)</span></span></li>
                 <li class="page-item d-none d-sm-block"><a class="page-link" href="#">2</a></li>
                 <li class="page-item d-none d-sm-block"><a class="page-link" href="#">3</a></li>
                 <li class="page-item d-none d-sm-block"><a class="page-link" href="#">4</a></li>
                 <li class="page-item d-none d-sm-block"><a class="page-link" href="#">5</a></li>
               </ul>
               <ul class="pagination">
-                <li class="page-item"><a class="page-link" href="#" aria-label="Next">Next<i class="ci-arrow-right ms-2"></i></a></li>
+                <li class="page-item"><a class="page-link" href="#" aria-label="Next">التالي<i class="ci-arrow-right ms-2"></i></a></li>
               </ul>
             </nav>
           </section>
@@ -984,48 +984,48 @@ include 'templates/header-ar.php'
           <aside class="col-lg-4 d-none d-lg-block">
             <div class="d-flex d-lg-block p-4 ms-auto w-100" style="max-width: 21.25rem;">
               <div class="widget mb-4">
-                <h3 class="widget-title">Popular products</h3>
+                <h3 class="widget-title">المنتجات الشعبية</h3>
                 <div class="d-flex align-items-center pb-2 border-bottom"><a class="d-block" href="shop-single-v1.html"><img src="img/shop/widget/02.jpg" width="64" alt="Product"></a>
                   <div class="ps-2">
-                    <h6 class="widget-product-title"><a href="shop-single-v1.html">Cap with Appliqué</a></h6>
+                    <h6 class="widget-product-title"><a href="shop-single-v1.html">كاب مع أبليك</a></h6>
                     <div class="widget-product-meta"><span class="text-accent me-2">$15.<small>99</small></span></div>
                   </div>
                 </div>
                 <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block" href="shop-single-v1.html"><img src="img/shop/widget/01.jpg" width="64" alt="Product"></a>
                   <div class="ps-2">
-                    <h6 class="widget-product-title"><a href="shop-single-v1.html">Girl's T-shirt with Motif</a></h6>
+                    <h6 class="widget-product-title"><a href="shop-single-v1.html">تي شيرت بناتي مع عزر</a></h6>
                     <div class="widget-product-meta"><span class="text-accent me-2">$14.<small>50</small></span></div>
                   </div>
                 </div>
                 <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block" href="shop-single-v1.html"><img src="img/shop/widget/03.jpg" width="64" alt="Product"></a>
                   <div class="ps-2">
-                    <h6 class="widget-product-title"><a href="shop-single-v1.html">Leather Platform Sandals</a></h6>
+                    <h6 class="widget-product-title"><a href="shop-single-v1.html">صندل بنعل سميك من الجلد</a></h6>
                     <div class="widget-product-meta"><span class="text-accent me-2">$78.<small>00</small></span></div>
                   </div>
                 </div>
                 <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block" href="shop-single-v1.html"><img src="img/shop/widget/04.jpg" width="64" alt="Product"></a>
                   <div class="ps-2">
-                    <h6 class="widget-product-title"><a href="shop-single-v1.html">Regular Fit Cotton Shirt</a></h6>
+                    <h6 class="widget-product-title"><a href="shop-single-v1.html">قميص قطني بقصة عادية</a></h6>
                     <div class="widget-product-meta"><span class="text-accent me-2">$17.<small>99</small></span></div>
                   </div>
                 </div>
                 <div class="d-flex align-items-center py-2"><a class="d-block" href="shop-single-v1.html"><img src="img/shop/widget/05.jpg" width="64" alt="Product"></a>
                   <div class="ps-2">
-                    <h6 class="widget-product-title"><a href="shop-single-v1.html">Boy's Shorts with Print</a></h6>
+                    <h6 class="widget-product-title"><a href="shop-single-v1.html">شورت الصبي مع الطباعة</a></h6>
                     <div class="widget-product-meta"><span class="text-accent me-2">$12.<small>40</small></span></div>
                   </div>
                 </div>
               </div>
               <div class="position-relative bg-size-cover bg-position-center rounded-3 py-5 mb-grid-gutter" style="background-image: url(img/blog/banner-bg.jpg);">
                 <div class="py-5 px-4 text-center">
-                  <h5 class="mb-2">Your Add Banner Here</h5>
-                  <p class="fs-sm text-muted">Hurry up to reserve your spot</p><a class="btn btn-info btn-shadow btn-sm stretched-link" href="#">Contact Us</a>
+                  <h5 class="mb-2">أضف لافتة هنا</h5>
+                  <p class="fs-sm text-muted">أسرع لحجز مكانك</p><a class="btn btn-info btn-shadow btn-sm stretched-link" href="#">اتصل بنا</a>
                 </div>
               </div>
               <div class="position-relative bg-faded-primary rounded-3 overflow-hidden pt-4">
                 <div class="py-4 px-4 text-center">
-                  <p class="fs-sm text-muted mb-2">Converse All Star</p>
-                  <h5 class="mb-3">Make Your Day Comfortable</h5><a class="btn btn-primary btn-shadow btn-sm stretched-link" href="#">Shop Now</a>
+                  <p class="fs-sm text-muted mb-2">كونفيرس اول ستار</p>
+                  <h5 class="mb-3">اجعل يومك مريحًا</h5><a class="btn btn-primary btn-shadow btn-sm stretched-link" href="#">تسوق الآن</a>
                 </div><img src="img/shop/catalog/banner2.jpg" alt="Banner">
               </div>
             </div>

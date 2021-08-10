@@ -1,5 +1,5 @@
 <?php
-include 'templates/header.php'
+include 'templates/header-ar.php'
 ?>
       <!-- Page Title-->
       <div class="page-title-overlap bg-dark pt-4">
@@ -980,5 +980,5 @@ include 'templates/header.php'
     </main>
     <!-- Footer-->
 <?php
-include 'templates/footer.php'
+include 'templates/footer-ar.php'
 ?>
